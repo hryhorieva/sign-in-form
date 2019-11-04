@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="form" action="/">
+        <div class="form__head">
+            <div class="form__row">
+                <div class="form__tab">
+                    Sign In
+                </div>
+
+                <div class="form__tab">
+                    Join Us
+                </div>
+            </div>
+        </div>
+
+        <div class="form__main">
+            <div class="form__element">
+                <div class="form__element--label">Username</div>
+                <input class="form__element--ctrl" type="text" required>
+            </div>
+
+            <div class="form__element">
+                <div class="form__element--label">Password</div>
+                <input class="form__element--ctrl" type="password" required>
+            </div>
+
+            <div class="form__row form__row--tick">
+                <div class="form__element">
+                    <input class="form__element--tick" type="checkbox" id="tick" checked>
+                    <label class="form__element--label form__element--signed-in" for="tick">Keep me signed in</label>
+                </div>
+            </div>
+
+            <div class="form__foot">
+                <input class="button form--button" type="submit" value="Sign in">
+
+                <div class="form__row form__row--link">
+                    <div class="form__element">
+                        <a class="form__submit-link form__submit-link--password" href="#">Forgot password</a>
+                    </div>
+                    <div class="form__element">
+                        <a class="form__submit-link" href="#">Create an account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
