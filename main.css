@@ -57,7 +57,7 @@ h1, h2 {
 
 .form {
     width: 400px;
-    background-image: url(/img/bg.jpg);
+    background-image: url(img/bg.jpg);
     background-size: cover;
     position: absolute;
     top: 50%;
